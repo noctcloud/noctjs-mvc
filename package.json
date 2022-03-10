@@ -1,15 +1,25 @@
 {
-	"name": "noctjs-mvc",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"noctjs": "^1.0.1"
-	}
+  "name": "noctjs-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noctcloud/noctjs-mvc.git"
+  },
+  "keywords": [
+    "noctjs"
+  ],
+  "author": "Sansnn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noctcloud/noctjs-mvc/issues"
+  },
+  "homepage": "https://github.com/noctcloud/noctjs-mvc#readme",
+  "dependencies": {
+    "noctjs": "^1.0.1"
+  }
 }
