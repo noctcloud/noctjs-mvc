@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/noctcloud/noctjs-mvc#readme",
   "dependencies": {
+    "lodash.template": "^4.5.0",
     "noctjs": "^1.0.1"
   }
 }

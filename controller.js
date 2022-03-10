@@ -24,9 +24,15 @@ module.exports = class controller extends service {
 
     this.view = (model) => {
       let html = fs.readFileSync(this.noct.config.baseDir + `/views/${this.noct.request.service}/${this.noct.request.action}.html`).toString();
-      if (model) {
-        html = render(html, model);
+      let variables = {
+        event,
+        context,
+        noct
       }
+      if (model) {
+        variables.model = model;
+      }
+      html = render(html, variables);
       this.noct.response.headers["content-type"] = "text/html";
       return html;
     }
