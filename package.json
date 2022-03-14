@@ -1,6 +1,6 @@
 {
   "name": "noctjs-mvc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/noctcloud/noctjs-mvc.git"
   },
   "keywords": [
-    "noctjs"
+    "noctjs",
+    "serverless"
   ],
   "author": "Sansnn",
   "license": "MIT",
